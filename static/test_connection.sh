@@ -2,7 +2,7 @@
 true
 SCRIPT_NAME="Test Connection (old)"
 # shellcheck source=lib.sh
-source <(curl -sL https://raw.githubusercontent.com/Dieguim25/vm/refs/heads/main/lib.sh)
+source <(curl -sL https://raw.githubusercontent.com/Dieguim25/teste.nextcloud/main/lib.sh)
 
 # This is needed since we removed this from the startup script, or changed name so it can't be downloaded anymore
 msg_box "You are running an outdated release.
