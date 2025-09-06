@@ -39,7 +39,7 @@ SCRIPT_NAME="Nextcloud Install Script"
 SCRIPT_EXPLAINER="This script is installing all requirements that are needed for Nextcloud to run.
 It's the first of two parts that are necessary to finish your customized Nextcloud installation."
 # shellcheck source=lib.sh
-source <(curl -sL https://raw.githubusercontent.com/nextcloud/vm/main/lib.sh)
+source <(curl -sL https://raw.githubusercontent.com/Dieguim25/nextcloud/refs/heads/main/lib.sh?token=GHSAT0AAAAAADKTWLEZSZ33F35YFYBS2BZS2F3QGIA)
 
 # Check for errors + debug code and abort if something isn't right
 # 1 = ON
