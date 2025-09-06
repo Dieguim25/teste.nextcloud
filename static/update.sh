@@ -5,7 +5,7 @@
 true
 SCRIPT_NAME="Update Server + Nextcloud"
 # shellcheck source=lib.sh
-source <(curl -sL https://raw.githubusercontent.com/Dieguim25/vm/refs/heads/main/lib.sh)
+source <(curl -sL https://raw.githubusercontent.com/Dieguim25/teste.nextcloud/main/lib.sh)
 
 # Check for errors + debug code and abort if something isn't right
 # 1 = ON
